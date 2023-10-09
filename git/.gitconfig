@@ -1,0 +1,54 @@
+[core]
+    editor = vim
+
+[user]
+	email = 1680962+daividh@users.noreply.github.com
+	name = David Arhuis
+
+[status]
+	showUntrackedFiles = all
+
+[alias]
+	ba       = branch -a        # List both remote-tracking branches and local branches.
+	bd       = branch -d        # Delete a branch only if it has been merged
+	bD       = branch -D        # Force delete a branch
+	c        = commit -m        # Commit changes with a message
+	cf       = commit --fixup	# Commit to fix another commit
+	co       = checkout         # Checkout a branch
+	cod	     = checkout develop # Checkout the develop branch
+	dc       = diff --cached    # Display the staged changes
+	f        = fetch -p         # Fetch from a repository and prune any remote-tracking references that no longer exist on the remote.
+	lg       = log --graph --abbrev-commit --decorate --oneline --all --pretty=format:\"%C(auto)%h%Creset%C(cyan)(%cd)%Creset%C(auto)%d%Creset %C(magenta)%cn%Creset %s\" --date=format:%d-%m-%y
+	p        = push             # Push you changes to a remote
+	pf       = push --force-with-lease # Push force to a remote
+	ri       = rebase -i		# Start an interactive rebase
+	st       = status           # Show git status
+	stashall = stash -undo      # stash all including untracked files
+	swc      = switch -c        # switch to a new not yet existing branch
+	undo	   = reset --soft HEAD^ # reset the last commit
+	wip	     = !git add -A && git commit -m \"chore: WIP\" --no-verify	# Create a wip commit
+
+[rebase]
+	autosquash = true
+
+[diff]
+	tool = vimdiff
+
+[merge]
+	tool = vimdiff
+	ff = false
+
+[fetch]
+	prune = true
+
+[pull]
+	ff = true
+
+[stash]
+	all = true
+
+[init]
+	defaultBranch = main
+
+[push]
+	autoSetupRemote = true
