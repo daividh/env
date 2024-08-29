@@ -1,0 +1,110 @@
+{
+  "[html]": {
+    "editor.tabSize": 4
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[nginx]": {
+    "editor.defaultFormatter": "raynigon.nginx-formatter"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[sass]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.rulers": [
+      100
+    ],
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.enableFiletypes": [
+    "dotenv"
+  ],
+  "cSpell.language": "en,fr",
+  "cSpell.userWords": [],
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.largeFileOptimizations": false,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript"
+  ],
+  "explorer.autoReveal": false,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "gitlens.telemetry.enabled": false,
+  "intelephense.telemetry.enabled": false,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "nginx-conf-hint.format.align": true,
+  "prettier.requireConfig": true,
+  "scm.showHistoryGraph": false,
+  "search.exclude": {
+    "**/.git": true,
+    "**/build/*.js": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/vendor": true,
+    "**/yarn.lock": true
+  },
+  "settingsSync.ignoredExtensions": [
+    "octref.vetur",
+    "vue.vscode-typescript-vue-plugin",
+    "vue.volar"
+  ],
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "vue"
+  ],
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1",
+    "PATH": "${env:PATH}"
+  },
+  "terminal.integrated.scrollback": 5000,
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#05ef3c"
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editorAssociations": {
+    "*.js": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always"
+}
